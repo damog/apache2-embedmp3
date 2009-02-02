@@ -211,8 +211,7 @@ sub handler {
 
 			$r->print(
 				$t->process(
-					uri => $r->uri,
-					md5 => $md5,
+					url => $r->uri."?".$md5,
 					wpaudioplayer => $r->dir_config("wpaudioplayer"),
 					js => $r->dir_config("wpaudioplayer_js"),
 					template => $template,
