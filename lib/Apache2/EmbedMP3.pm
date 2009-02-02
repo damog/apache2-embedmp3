@@ -51,7 +51,6 @@ A more complete example:
  <Files ~ "\.mp3$">
    SetHandler modperl
    PerlSetVar template /path/to/my/template.tt
-   # you would have to have http://yourserver.com/somewhere/flowplayer.swf:
    PerlSetVar wpaudioplayer /somewhere/wpaudioplayer.swf
    # or...
    PerlSetVar wpaudioplayer_js http://my.other.server/rocks/wpaudioplayer.js
