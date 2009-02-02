@@ -81,7 +81,7 @@ h1 {
 
 
 
-<p align="center">Apache2::EmbedMP3 - <a href="http://axiombox.com/apache2-embedmp3">http://axiombox.com/apache2-embedmp3</a></p>
+<p align="center">Apache2::EmbedMP3 - <a href="http://github.com/damog/apache2-embedmp3">http://github.com/damog/apache2-embedmp3</a></p>
 	
 </body></html>
 EOF
